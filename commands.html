@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Git Commands</title>
+  </head>
+  <body>
+    <h2>init</h2>
+    <h3 class="code">git init</h3>
+    <p>Creates new .git repository folder in the current folder.</p>
+    <h2>status</h2>
+    <h3 class="code">git status</h3>
+    <p>Returns status of current branch including:</p>
+    <ul>
+      <li>Untracked files: files which are have not being added to the repository.</li>
+      <li>Unstaged files: files that are tracked but which are have not been staged.</li>
+      <li>Staged files: files that are staged and will be on next commit.</li>
+    </ul>
+    <h2>add</h2>
+    <h3>git add &#60;file1 name&#62; &#91;file2 name&#93; ...</h3>
+    <ol>
+      <li><p>Adds specified file(s) to repository branch if file is not currently being tracked.</p></li>
+      <li><p>Stages modified files that are alreay part of current repository branch.</p></li>
+    </ol>
+    <p>Separate files with spaces.</p>
+    <p>Sepecifying a directory will add all files to next commit.</p>
+    <h3>git add -A</h3>
+    <p>Adds all changes including new files, modified files and removed files in current directory.</p>
+    <h3>git add .</h3>
+    <p>Adds all changes including new files, modified files and but not removed files in current directory.</p>
+
+  </body>
+</html>
