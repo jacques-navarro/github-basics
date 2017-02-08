@@ -28,6 +28,38 @@
     <p>Adds all changes including new files, modified files and removed files in current directory.</p>
     <h3>git add .</h3>
     <p>Adds all changes including new files, modified files and but not removed files in current directory.</p>
-
+    <h2>diff</h2>
+    <h3>git diff</h3>
+    <p>Compares what has been changed but is not staged yet.</p>
+    <h3>git diff --staged</h3>
+    <p>Compares staged changes to last commit.</p>
+    <h2>commit</h2>
+    <h3>git commit</h3>
+    <p>Launches text editor so commit message can be typed in. Description can be added by leaving blank line after commit message.</p>
+    <h3>git commit -m</h3>
+    <p>Allows inline entry of commit message. (doesn't launch text editor.)</p>
+    <h3><code>commit -a -m</code></h3>
+    <p>Skips staging and commits all current changes with an inline commit message.</p>
+    <h2>rm</h2>
+    <h3>git rm &#60file_name&#62 &#91directory&#93</h3>
+    <p>Removes file &#91directory&#93 from working directory and repository.</p>
+    <h3>git rem --cached &#60file_name&#62</h3>
+    <p>Removes file from repository but not from working directory.</p>
+    <h3>git commit --amend</h3>
+    <p>Takes previous commit and returns it to staing area.</p>
+    <h2>log</h2>
+    <h3>git log</h3>
+    <p>Outputs commit history</p>
+    <h3>git log -(n)</h3>
+    <p>Restricts out put to nth last commits.</p>
+    <h3>git log --since="yyyy-mm-dd" (--after="yyyy-mm-dd")</h3>
+    <p>Limits output to commits made --after or --since aspecified date.</p>
+    <h3>git log --until="yyyy-mm-dd" (--before="yyyy-mm-dd")</h3>
+    <p>Limits out put to commits made before specified date.</p>
+    <h3>git log -S&#60string&#62</h3>
+    <p>Restricts output to commits with specified string.</p>
+    <h2>reset</h2>
+    <h3>git reset &#60file_name&#62</h3>
+    <p>Removes specified files from staging.</p>
   </body>
 </html>
